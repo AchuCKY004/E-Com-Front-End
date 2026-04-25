@@ -1,0 +1,22 @@
+.left-wrapper {
+  background: white;                     
+  padding: 0;                              /* Remove extra padding to show orange fully */
+  border-radius: 50px 0 0 50px;           /* Curve only left side */
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;                     /* Fill full height of row */
+}
+
+.left-part {
+  background: #ff9800;                     /* Orange color */
+  color: white;
+  padding: 40px;
+  border-radius: 50px 0 0 50px;           /* Match wrapper curve */
+  text-align: center;
+  width: 100%;                             /* Fill wrapper horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
