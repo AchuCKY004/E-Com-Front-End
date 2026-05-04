@@ -82,8 +82,8 @@ const Cart = () => {
                                                 <p className="text-muted small mb-2">Seller: {item.productId?.brand}</p>
                                                 <div className="d-flex align-items-center gap-2">
                                                     <span className="text-success fw-bold small">{Math.round(((item.productId?.mrp - item.productId?.price) / item.productId?.mrp) * 100)}% Off</span>
-                                                    <span className="text-muted text-decoration-line-through small">₹{(item.productId?.mrp * item.quantity).toLocaleString()}</span>
-                                                    <span className="h5 fw-bold mb-0">₹{(item.productId?.price * item.quantity).toLocaleString()}</span>
+                                                    <span className="text-muted text-decoration-line-through small">₹{item.productId?.mrp .toLocaleString()}</span>
+                                                    <span className="h5 fw-bold mb-0">₹{item.productId?.price .toLocaleString()}</span>
 
                                                 </div>
                                                 <div className="mt-3">
